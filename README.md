@@ -75,7 +75,7 @@ To control other robot types, see the _ROS2Converter_ page (**under construction
 
    ```bash
    cd $COLCON_WS
-   git clone -b humble https://github.com/Applied-Robotics-Vsnderbilt/denso_ros2.git src/denso_robot_drivers_ros2
+   git clone -b humble https://github.com/Applied-Robotics-Vanderbilt/denso_ros2.git src/denso_robot_drivers_ros2
    vcs import src --skip-existing --input src/denso_robot_drivers_ros2/denso_robot_drivers_ros2.repos
    ```
 
