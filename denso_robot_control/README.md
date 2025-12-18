@@ -52,7 +52,7 @@ The arguments for launch files can be listed using:
 
 The most relevant arguments are the following:
 
-  - `model` (**mandatory**) - the model of the DENSO robot (COBOTTA, VS-060, etc.). In the original DENSO ROS2 stack 2 robot models are already available ( _"cobotta"_ , _"vs060"_).
+  - `model` (**mandatory**) - the model of the DENSO robot (COBOTTA, VS-060, etc.). In the original DENSO ROS2 stack 2 robot models are already available ( _"cobotta"_ , _"vs050"_, "vs060"_, and _"vp6242"_).
     To use other robot types, see the _ROS2Converter_ page (**under construction**) for creating the URDF model and the associated [MoveIt2](https://moveit.ros.org/) configuration package
   - `ip_address` (**mandatory**) - IP address of the robot
   - `sim` (default: _true_) - whether the robot is simulated (Gazebo simulator) or an RC8 controller is connected (either WINCAPS III-simulated  or real controller)
@@ -156,7 +156,7 @@ The arguments for launch files can be listed using:
 
 The most relevant arguments are the following:
 
-   - `model` (**mandatory**) - the model of the DENSO robot (COBOTTA, VS-060, etc.). In the original DENSO ROS2 stack 2 robot models are already available ( _"cobotta"_ , _"vs060"_).
+   - `model` (**mandatory**) - the model of the DENSO robot (COBOTTA, VS-060, etc.). In the original DENSO ROS2 stack 2 robot models are already available ( _"cobotta"_ , _"vs050"_, "vs060"_, and _"vp6242"_).
      To use other robot types, see the _ROS2Converter_ page (**under construction**) for creating the URDF model and the associated [MoveIt2](https://moveit.ros.org/) configuration package
    - `scale_factor` (default: _0.1_) - motion speed \[0.01-1.0\]
    - `num_cycles` (default: _1_) - number of times to repeat the pick-and-place cycle
@@ -198,7 +198,7 @@ The arguments for launch files can be listed using:
 
 The most relevant arguments are the following:
 
-  - `model` (**mandatory**) - the model of the DENSO robot (COBOTTA, VS-060, etc.). In the original DENSO ROS2 stack 2 robot models are already available ( _"cobotta"_ , _"vs060"_).
+  - `model` (**mandatory**) - the model of the DENSO robot (COBOTTA, VS-060, etc.). In the original DENSO ROS2 stack 2 robot models are already available ( _"cobotta"_ , _"vs050"_, "vs060"_, and _"vp6242"_).
     To use other robot types, see the _ROS2Converter_ page (**under construction**) for creating the URDF model and the associated [MoveIt2](https://moveit.ros.org/) configuration package
   - `scale_factor` (default: _0.1_) - motion speed \[0.01-1.0\]
 

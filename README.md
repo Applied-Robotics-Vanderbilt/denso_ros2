@@ -25,7 +25,7 @@ The supported robot models are the following:
   - Collaborative robots (not OSS type)
 
 
-Moreover, the DENSO robot ROS2 stack provides URDF models for COBOTTA and VS-060 robotic arms and associated [MoveIt2](https://moveit.ros.org/) configuration packages (as standard components).
+Moreover, the DENSO robot ROS2 stack provides URDF models for COBOTTA, VS-050, VS-060, and VP-6242 robotic arms and associated [MoveIt2](https://moveit.ros.org/) configuration packages (as standard components).
 To control other robot types, see the _ROS2Converter_ page (**under construction**) for creating the URDF model and the associated [MoveIt2](https://moveit.ros.org/) configuration package.
 
 
@@ -226,7 +226,7 @@ For controlling a real DENSO robot, the RC8 controller must be configured.
 | ![b-CAP Slave license registration](denso_robot_control/docs/registration_en.jpg) | 
 
 
-7. Create a robot definition file: `denso_robot_ros package` provides URDF models for _cobotta_ and _vs060_ robots, and associated [MoveIt2](https://moveit.ros.org/) configuration packages as standard components.
+7. Create a robot definition file: `denso_robot_ros package` provides URDF models for _cobotta_, _vs050, _vs060_, and _vp6242_ robots, and associated [MoveIt2](https://moveit.ros.org/) configuration packages as standard components.
     To control other robot types, see the _ROS2Converter_ page (**under construction**).
 
 8. Set speed/acceleration parameters: the URDF models and the associated [MoveIt2](https://moveit.ros.org/) configuration packages created by _ROS2Converter_ have dummy speed/acceleration parameters.
