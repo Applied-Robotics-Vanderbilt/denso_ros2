@@ -88,7 +88,14 @@ To control other robot types, see the _ROS2Converter_ page (**under construction
    sudo apt install ros-humble-ros2-controllers
    ```
 
-7. Compile and source the workspace:
+7. Initialize rosdep
+
+    ```bash
+      sudo rosdep init
+      rosdep update
+    ```
+
+8. Compile and source the workspace:
 
    ```bash
    rosdep install --ignore-src --from-paths src -y -r
