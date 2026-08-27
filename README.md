@@ -67,7 +67,7 @@ To control other robot types, see the _ROS2Converter_ page (**under construction
 3. Create a new ROS2 workspace:
 
    ```bash
-   export COLCON_WS=~/workspace/denso_ros2_ws
+   export COLCON_WS=~/workspaces/denso_ros2_ws
    mkdir -p $COLCON_WS/src
    ```
 
